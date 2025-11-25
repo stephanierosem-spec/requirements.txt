@@ -11,3 +11,9 @@ jinja2==2.10.1          # Template injection vulnerabilities
 markupsafe==1.1.1       # Outdated, flagged in transitive chains
 pyyaml==5.3             # Arbitrary code execution CVEs
 cryptography==2.8       # Insecure version with known security issues
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"          # Look for requirements.txt in the repo root
+    schedule:
+      interval: "daily"     # Check for updates every day
