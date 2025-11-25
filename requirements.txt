@@ -1,0 +1,11 @@
+# Vulnerable Python dependencies to trigger Dependabot alerts
+# Upload this repo to GitHub and Dependabot will immediately detect vulnerabilities.
+
+flask==1.1.2
+urllib3==1.25.8
+requests==2.22.0
+django==2.2.13
+jinja2==2.10.1
+pyyaml==5.3
+cryptography==2.8
+markupsafe==1.1.1
