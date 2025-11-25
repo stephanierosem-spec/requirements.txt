@@ -2,7 +2,7 @@
 # Upload this repo to GitHub and Dependabot will immediately detect vulnerabilities.
 
 flask==1.1.2
-urllib3==1.25.8
+urllib3==2.5.0
 requests==2.22.0
 django==2.2.13
 jinja2==2.10.1
