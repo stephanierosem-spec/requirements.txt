@@ -1,7 +1,5 @@
 # requirements.txt
-# Vulnerable Python dependencies to trigger Dependabot alerts
-# These versions contain known vulnerabilities (CVE, GHSA, PYSEC)
-# Upload this file to ANY GitHub repository and Dependabot will create alerts & PRs.
+
 
 flask==1.1.2            # Outdated, contains security issues
 urllib3==1.25.8         # Multiple CVEs; Dependabot will flag immediately
